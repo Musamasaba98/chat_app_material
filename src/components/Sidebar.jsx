@@ -20,7 +20,7 @@ function Sidebar() {
           <ListItem disablePadding>
             <ListItemButton component="a" href='#pages'>
               <ListItemIcon>
-                <Pages />2
+                <Pages />
               </ListItemIcon>
               <ListItemText primary="Pages" />
             </ListItemButton>
