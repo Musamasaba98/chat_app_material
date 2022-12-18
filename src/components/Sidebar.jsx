@@ -7,6 +7,7 @@ function Sidebar() {
   return (
     <Box  flex={1} p={2} 
     sx={{display:{xs:"none",sm:"block"}}}>
+      <Box position="fixed">
        <List>
           <ListItem disablePadding>
             <ListItemButton component="a" href='#home'>
@@ -19,7 +20,7 @@ function Sidebar() {
           <ListItem disablePadding>
             <ListItemButton component="a" href='#pages'>
               <ListItemIcon>
-                <Pages />
+                <Pages />2
               </ListItemIcon>
               <ListItemText primary="Pages" />
             </ListItemButton>
@@ -72,7 +73,8 @@ function Sidebar() {
               <Switch defaultChecked />
             </ListItemButton>
           </ListItem>
-       </List>   
+       </List>  
+      </Box>   
     </Box>
   )
 }
